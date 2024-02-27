@@ -1,8 +1,8 @@
 import cv2 as cv
 import numpy as np
 
-haystack = cv.imread('albion_screen_includes_seaweed.PNG', cv.IMREAD_UNCHANGED)# must be the same type, png / jpeg
-needle = cv.imread('albion_littleflower.PNG', cv.IMREAD_UNCHANGED)
+haystack = cv.imread('IMAGE HERE', cv.IMREAD_UNCHANGED)# must be the same type, png / jpeg
+needle = cv.imread('IMAGE HERE', cv.IMREAD_UNCHANGED)
 
 
 result = cv.matchTemplate(haystack, needle, cv.TM_CCOEFF_NORMED)
